@@ -147,6 +147,12 @@ Game chessboard size
 ```
 Game victory condition (3 pieces in a row)
 
+```
+#define TICTACTOE_PLAYER1_MARK    "X"<br/>
+#define TICTACTOE_PLAYER2_MARK    "O"
+```
+Player's mark
+
 ## Limitations:
 
 Current DecisionMaker is using DFS algorithm, and it is guaranteed that the computer will use the optimal strategy. Therefore, the player can never win the game.<br/>
