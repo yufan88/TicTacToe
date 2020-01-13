@@ -131,3 +131,10 @@ After the game, user is able to choose play again or not.
 The computer is using DFS algorithm to find the optimal step, therefore, the player can never win the game. (The outcome of the game is a tie or lose for player.)
 
 ## Key Functions/Variables:
+
+
+
+## Limitations:
+
+Current DecisionMaker is using DFS algorithm, and it is guaranteed that the computer will use the optimal strategy. Therefore, the player can never win the game.
+However, the DFS algorithm is computational intense. For n size table game, the computational complexity will be O(n!). If we want to extend this game to > 4\times4 table size, better evaluation algorithm is badly needed.
