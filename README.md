@@ -4,23 +4,29 @@ This is a simple c++ implementation of Tic-Tac-Toe game. The game is played by a
 
 ## Gameplay:
 
-The player is able to choose go first or computer go first at the welcome page.
-The chess board size and victory condition is also displayed here.
+The player is able to choose to go first or let computer go first at the welcome page.
+The chessboard size and victory condition is also displayed here.
+
+========================================
+===== Welcome to Tic Tac Toe Game! =====
+========================================
+========================================
 
 Current chessboard size: 3
 Current victory condition: 3 in a row
 Current chessboard position: 
+
 	*************************
 	*       *       *       *
-	*   1   *   2   *   3   *
-	*       *       *       *
-	*************************
-	*       *       *       *
-	*   4   *   5   *   6   *
+	*   O   *       *       *
 	*       *       *       *
 	*************************
 	*       *       *       *
-	*   7   *   8   *   9   *
+	*       *   X   *       *
+	*       *       *       *
+	*************************
+	*       *       *       *
+	*       *       *       *
 	*       *       *       *
 	*************************
 
