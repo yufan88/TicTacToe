@@ -162,7 +162,7 @@ Chessboard size for display
 ```
 int board[TICTACTOE_TABLE_SIZE][TICTACTOE_TABLE_SIZE];
 ```
-Chessboard, >1 values indicates the cell is empty, <0 values indicates the cell is occupied
+Chessboard array, >1 values indicates the cell is empty, <0 values indicates the cell is occupied
 
 ```
 int TicTacToe_flag;
