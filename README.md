@@ -81,11 +81,11 @@ The player is able to show/hide the position indicator during the game by pressi
 	*       *       *       *
 	*************************
 
-(hide available positions by entering "H")<br/>
-It is your turn, enter your position (1-9): H
+>(hide available positions by entering "H")<br/>
+>It is your turn, enter your position (1-9): H
 
-This is current chessboard :<br/>
-Your mark: X,  Computer's mark: O
+>This is current chessboard :<br/>
+>Your mark: X,  Computer's mark: O
 
 	*************************
 	*       *       *       *
