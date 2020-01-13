@@ -133,7 +133,7 @@ The computer is using DFS algorithm to find the optimal step, therefore, the pla
 ## Key Functions/Variables:
 
 ```
-class TicTacToe
+class TicTacToe {}
 ```
 TicTacToe class
 
