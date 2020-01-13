@@ -56,7 +56,7 @@ For example, here player can choose 5 to place his piece at the center of the ch
 	*************************
 
 >(show available positions by entering "P")
->It is your turn, enter your position (1-9): 
+>It is your turn, enter your position (1-9):
 
 The system does not accept invalid inputs, but it is not case sensitive.
 
