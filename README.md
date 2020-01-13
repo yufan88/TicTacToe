@@ -148,10 +148,16 @@ Game chessboard size
 Game victory condition (3 pieces in a row)
 
 ```
-#define TICTACTOE_PLAYER1_MARK    "X"<br/>
+#define TICTACTOE_PLAYER1_MARK    "X"
 #define TICTACTOE_PLAYER2_MARK    "O"
 ```
 Player's mark
+
+```
+#define TICTACTOE_CELL_WIDTH  9
+#define TICTACTOE_CELL_LEN    5
+```
+Chessboard size for display
 
 ## Limitations:
 
