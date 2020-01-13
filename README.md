@@ -162,7 +162,7 @@ Chessboard size for display
 ```
 int TicTacToe_flag;
 ```
-Current class status:
+Current class status:<br/>
 0x01  if user has turned on position indicator<br/>
 0x02  if user has chosen to go first<br/>
 0x04  if it is user's turn to go
