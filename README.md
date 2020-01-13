@@ -211,9 +211,18 @@ Prompt user for playing again
 int  TicTacToe_dfsDecisionMaker(bool myTurn, int CurrDepth, \
                         int maxDepth, int &xIndex, int &yIndex);
 ```
-DFS agorithm to determine the next step for computer.
-
-if (nextPoints > Points)
+DFS agorithm to determine the next step for computer.<br/>
+In this function, we assume that user is smart, and he is always to choose the best move on current chessboard.<br/>
+We loop all available cells to choose the best current move:
+```ccp
+    for (int i = 0; i < TICTACTOE_TABLE_SIZE; ++i) {
+        for (int j = 0; j < TICTACTOE_TABLE_SIZE; ++j) {
+            if (!TicTacToe_ifOccupied(i, j)) {
+	    	// if the cell is available, we do the logic to judge if it is the best stategy to place our piece here.
+	    }
+	}
+    }
+```
 
 
 ## Limitations:
