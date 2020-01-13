@@ -159,6 +159,50 @@ Player's mark
 ```
 Chessboard size for display
 
+```
+int TicTacToe_flag;
+```
+Current class status:
+0x01  if user has turned on position indicator<br/>
+0x02  if user has chosen to go first<br/>
+0x04  if it is user's turn to go
+
+```
+static const string TicTacToe_msg[TicTacToe_msg_num];
+```
+All the messages we will use in the game
+
+```
+void TicTacToe_startGame();
+```
+Start the main loop of the game
+
+```
+TicTacToe_getWhoStartFirst();
+```
+Prompt user for who should go first
+
+```
+TicTacToe_getUserPiece();
+```
+Prompt user to place a piece on the chessboard
+
+```
+TicTacToe_getPcPiece();
+```
+Get the next step for computer
+
+```
+TicTacToe_checkIfGameEnded();
+```
+Check if the game is ended
+
+```
+TicTacToe_getUserPlayAgain();
+```
+Prompt user for play again
+
+
 ## Limitations:
 
 Current DecisionMaker is using DFS algorithm, and it is guaranteed that the computer will use the optimal strategy. Therefore, the player can never win the game.<br/>
