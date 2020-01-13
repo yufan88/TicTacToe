@@ -205,7 +205,15 @@ Check if the game is ended
 ```
 TicTacToe_getUserPlayAgain();
 ```
-Prompt user for play again
+Prompt user for playing again
+
+```
+int  TicTacToe_dfsDecisionMaker(bool myTurn, int CurrDepth, \
+                        int maxDepth, int &xIndex, int &yIndex);
+```
+DFS agorithm to determine the next step for computer.
+
+if (nextPoints > Points)
 
 
 ## Limitations:
