@@ -132,39 +132,39 @@ The computer is using DFS algorithm to find the optimal step, therefore, the pla
 
 ## Key Functions/Variables:
 
-```
+```ccp
 class TicTacToe {}
 ```
 TicTacToe class
 
-```
+```ccp
 #define TICTACTOE_TABLE_SIZE       3
 ```
 Game chessboard size
 
-```
+```ccp
 #define TICTACTOE_NUM_TO_WIN       3
 ```
 Game victory condition (3 pieces in a row)
 
-```
+```ccp
 #define TICTACTOE_PLAYER1_MARK    "X"
 #define TICTACTOE_PLAYER2_MARK    "O"
 ```
 Player's mark
 
-```
+```ccp
 #define TICTACTOE_CELL_WIDTH  9
 #define TICTACTOE_CELL_LEN    5
 ```
 Chessboard size for display
 
-```
+```ccp
 int board[TICTACTOE_TABLE_SIZE][TICTACTOE_TABLE_SIZE];
 ```
 Chessboard array, >1 values indicates the cell is empty, <0 values indicates the cell is occupied
 
-```
+```ccp
 int TicTacToe_flag;
 ```
 Current class status:<br/>
@@ -172,42 +172,42 @@ Current class status:<br/>
 0x02  if user has chosen to go first<br/>
 0x04  if it is user's turn to go
 
-```
+```ccp
 static const string TicTacToe_msg[TicTacToe_msg_num];
 ```
 All the messages we will use in the game
 
-```
+```ccp
 void TicTacToe_startGame();
 ```
 Start the main loop of the game
 
-```
+```ccp
 TicTacToe_getWhoStartFirst();
 ```
 Prompt user for who should go first
 
-```
+```ccp
 TicTacToe_getUserPiece();
 ```
 Prompt user to place a piece on the chessboard
 
-```
+```ccp
 TicTacToe_getPcPiece();
 ```
 Get the next step for computer
 
-```
+```ccp
 TicTacToe_checkIfGameEnded();
 ```
 Check if the game is ended
 
-```
+```ccp
 TicTacToe_getUserPlayAgain();
 ```
 Prompt user for playing again
 
-```
+```ccp
 int  TicTacToe_dfsDecisionMaker(bool myTurn, int CurrDepth, \
                         int maxDepth, int &xIndex, int &yIndex);
 ```
@@ -223,6 +223,8 @@ We loop all available cells to choose the best current move:
 	}
     }
 ```
+If myTurn is true, we know it is our turn, and we choose the best cell on all availabel cells.
+
 
 
 ## Limitations:
