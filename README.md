@@ -9,8 +9,10 @@ The chessboard size and victory condition is also displayed here.
 
 **===== Welcome to Tic Tac Toe Game! =====**
 
-**Current chessboard size: 3**\n
+**Current chessboard size: 3**
+
 **Current victory condition: 3 in a row**
+
 **Current chessboard position:**
 
 
