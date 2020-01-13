@@ -223,9 +223,17 @@ We loop all available cells to choose the best current move:
 	}
     }
 ```
-If myTurn is true, we know it is our turn, and we choose the best cell on all availabel cells.
+In each loop, we use recursion to calculate the "benefit" we can get if we place our piece there.
 
-
+```ccp
+nextPoints = TicTacToe_dfsDecisionMaker(!myTurn, CurrDepth + 1, maxDepth, \
+                                        xIndex, yIndex);
+```
+The exit condition is the game end or we have reached the maximal search depth. 
+```ccp
+if (GameResult) {...; return;} .  // we know the outcome if we go this step
+if (CurrDepth == maxDepth) {...; return;}  // we tried our best but we cannot stay here forever
+```
 
 ## Limitations:
 
