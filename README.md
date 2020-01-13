@@ -130,4 +130,4 @@ After the game, user is able to choose play again or not.
 
 The computer is using DFS algorithm to find the optimal step, therefore, the player can never win the game. (The outcome of the game is a tie or lose for player.)
 
-## Key Functions/variables:
+## Key Functions/Variables:
