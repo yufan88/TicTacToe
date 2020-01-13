@@ -7,11 +7,6 @@ This is a simple c++ implementation of Tic-Tac-Toe game. The game is played by a
 The player is able to choose go first or computer go first at the welcome page.
 The chess board size and victory condition is also displayed here.
 
-========================================
-===== Welcome to Tic Tac Toe Game! =====
-========================================
-========================================
-
 Current chessboard size: 3
 Current victory condition: 3 in a row
 Current chessboard position: 
@@ -31,6 +26,7 @@ Current chessboard position:
 
 
 Do you want to go first? (Y or N): 
+
 
 Player needs to select a number to place his piece at the corresponding cell, for chess size 3, the cell number is 1 - 9.
 For example, here player can choose 5 to place his piece at the center of the chessboard.
