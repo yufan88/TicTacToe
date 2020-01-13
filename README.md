@@ -8,10 +8,12 @@ The player is able to choose to go first or let computer go first at the welcome
 The chessboard size and victory condition is also displayed here.
 
 >===== Welcome to Tic Tac Toe Game! =====
->Current chessboard size: 3
->Current victory condition: 3 in a row**
->Current chessboard position:**
 
+>Current chessboard size: 3
+
+>Current victory condition: 3 in a row**
+
+>Current chessboard position:**
 
 	*************************
 	*       *       *       *
@@ -28,17 +30,16 @@ The chessboard size and victory condition is also displayed here.
 	*************************
 
 
-**Do you want to go first? (Y or N): **
-
+>Do you want to go first? (Y or N):
 
 Player needs to select a number to place his piece at the corresponding cell, for chess size 3, the cell number is 1 - 9.
 For example, here player can choose 5 to place his piece at the center of the chessboard.
 
 
-It is your turn, enter your position (1-9): 5
+>It is your turn, enter your position (1-9): 5
 
-This is current chessboard :
-Your mark: X,  Computer's mark: O
+>This is current chessboard :
+>Your mark: X,  Computer's mark: O
 
 	*************************
 	*       *       *       *
@@ -54,13 +55,13 @@ Your mark: X,  Computer's mark: O
 	*       *       *       *
 	*************************
 
-(show available positions by entering "P")
-It is your turn, enter your position (1-9): 
+>(show available positions by entering "P")
+>It is your turn, enter your position (1-9): 
 
 The system does not accept invalid inputs, but it is not case sensitive.
 
-It is your turn, enter your position (1-9): t
-Invalid input, please enter (1-9): 
+>It is your turn, enter your position (1-9): t
+>Invalid input, please enter (1-9): 
 
 The player is able to show/hide the position indicator during the game by pressing P/H.
 
