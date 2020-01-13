@@ -132,6 +132,8 @@ The computer is using DFS algorithm to find the optimal step, therefore, the pla
 
 ## Key Functions/Variables:
 
+#define TICTACTOE_TABLE_SIZE       3
+Game chessboard size
 
 
 ## Limitations:
