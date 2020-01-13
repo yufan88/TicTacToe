@@ -9,9 +9,10 @@ The chessboard size and victory condition is also displayed here.
 
 **===== Welcome to Tic Tac Toe Game! =====**
 
-Current chessboard size: 3
-Current victory condition: 3 in a row
-Current chessboard position: 
+**Current chessboard size: 3**
+**Current victory condition: 3 in a row**
+**Current chessboard position:**
+
 
 	*************************
 	*       *       *       *
@@ -28,7 +29,7 @@ Current chessboard position:
 	*************************
 
 
-Do you want to go first? (Y or N): 
+**Do you want to go first? (Y or N): **
 
 
 Player needs to select a number to place his piece at the corresponding cell, for chess size 3, the cell number is 1 - 9.
