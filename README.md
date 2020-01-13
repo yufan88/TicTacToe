@@ -133,10 +133,19 @@ The computer is using DFS algorithm to find the optimal step, therefore, the pla
 ## Key Functions/Variables:
 
 ```
+class TicTacToe
+```
+TicTacToe class
+
+```
 #define TICTACTOE_TABLE_SIZE       3
 ```
 Game chessboard size
 
+```
+#define TICTACTOE_NUM_TO_WIN       3
+```
+Game victory condition (3 pieces in a row)
 
 ## Limitations:
 
